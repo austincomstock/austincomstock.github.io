@@ -12,13 +12,6 @@
 		<lastmod>2023-03-01T20:50:04+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://austincomstock.github.io/about/</loc>
-		<lastmod>2023-03-03T16:26:34+00:00</lastmod>
-		<image:image>
-			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/LittleMoab1-scaled.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://austincomstock.github.io/meet-the-team/</loc>
 		<lastmod>2023-03-06T18:05:56+00:00</lastmod>
 		<image:image>
@@ -47,6 +40,13 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/jjb103_RC1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://austincomstock.github.io/about/</loc>
+		<lastmod>2023-03-06T21:20:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/LittleMoab1-scaled.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>

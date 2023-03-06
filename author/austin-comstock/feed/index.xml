@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Austin, Author at Tortoise &amp; Hare RC</title>
+	<atom:link href="https://austincomstock.github.io/author/austin-comstock/feed/" rel="self" type="application/rss+xml" />
+	<link>https://austincomstock.github.io/author/austin-comstock/</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Mar 2023 18:49:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>PADDLEPALOOZA 2023</title>
+		<link>https://austincomstock.github.io/paddlepalooza-2023/</link>
+					<comments>https://austincomstock.github.io/paddlepalooza-2023/#respond</comments>
+		
+		<dc:creator><![CDATA[Austin]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 18:46:02 +0000</pubDate>
+				<category><![CDATA[Events]]></category>
+		<guid isPermaLink="false">https://austincomstock.github.io/?p=144</guid>
+
+					<description><![CDATA[<p>801RCC&#8217;s 6th Annual PADDLEPALOOZA 2023 WHEN: SAT, MAR 18 AT 9 AM LOCATION: Little Sahara Recreation Area 801RCLIFESTYLE</p>
+<p>The post <a rel="nofollow" href="https://austincomstock.github.io/paddlepalooza-2023/">PADDLEPALOOZA 2023</a> appeared first on <a rel="nofollow" href="https://austincomstock.github.io/">Tortoise &amp; Hare RC</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h2 class="has-text-align-center">801RCC&#8217;s 6th Annual PADDLEPALOOZA 2023</h2>
+
+
+
+<p><strong>WHEN</strong>: SAT, MAR 18 AT 9 AM</p>
+
+
+
+<p><strong>LOCATION</strong>: Little Sahara Recreation Area</p>
+
+
+
+<h2><a href="https://www.facebook.com/events/1150014592301458/?ref=newsfeed" target="_blank" rel="noreferrer noopener">801RCLIFESTYLE</a></h2>
+<p>The post <a rel="nofollow" href="https://austincomstock.github.io/paddlepalooza-2023/">PADDLEPALOOZA 2023</a> appeared first on <a rel="nofollow" href="https://austincomstock.github.io/">Tortoise &amp; Hare RC</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://austincomstock.github.io/paddlepalooza-2023/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
