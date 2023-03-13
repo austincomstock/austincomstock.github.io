@@ -3477,10 +3477,10 @@ ul.sfsi_icn_listing8 li .tb_4_ck{
     text-align: center;
     white-space: pre;
     width: 35px;
-    height: 29px;
+    height: 20px;
     z-index: 9;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: text-top;
 }
 
 .sfsi_icons_container>a {

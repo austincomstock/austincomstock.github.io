@@ -163,7 +163,9 @@ function sfsfi_getCookie(s) {
 
 function sfsi_hideFooter() {}
 
-window.onerror = function () {}, SFSI = jQuery, SFSI(window).on('load', function () {
+window.onerror = function () {
+    jQuery("#sfpageLoad").fadeOut(2e3);
+}, SFSI = jQuery, SFSI(window).on('load', function () {
     SFSI("#sfpageLoad").fadeOut(2e3);
 
     if (jQuery('#sfsi_tifm_scroll_value').val()) {
@@ -442,8 +444,44 @@ function sfsi_responsive_toggle() {
     });
 }
 
+function createCookie(name, value, expires, path, domain) {
+    var cookie = name + "=" + escape(value) + ";";
+  
+    if (expires) {
+      // If it's a date
+      if(expires instanceof Date) {
+        // If it isn't a valid date
+        if (isNaN(expires.getTime()))
+         expires = new Date();
+      }
+      else
+        expires = new Date(new Date().getTime() + parseInt(expires) * 1000 * 60 * 60 * 24);
+  
+      cookie += "expires=" + expires.toGMTString() + ";";
+    }
+  
+    if (path)
+      cookie += "path=" + path + ";";
+    if (domain)
+      cookie += "domain=" + domain + ";";
+  
+    document.cookie = cookie;
+  }
+
 function sfsi_time_pop_up(time_popUp) {
     jQuery(document).ready(function ($) {
+        try{
+            // Check if cookie exists
+            if (document.cookie.indexOf('sfsi_popup') !== -1) {
+                return;
+            }
+
+            // If it doesn't exist, create it
+            createCookie('sfsi_popup', new Date.getTime(), 30, '/');
+        } catch(Exception) {
+            // Do nothing
+        }
+
         setTimeout(function () {
             jQuery('.sfsi_outr_div').css({
                 'z-index': '1000000',
@@ -458,7 +496,18 @@ function sfsi_time_pop_up(time_popUp) {
 function sfsi_social_pop_up(time_popUp) {
     jQuery(document).ready(function ($) {
         //jQuery('.sfsi_outr_div').fadeIn();
-        sfsi_setCookie('sfsi_socialPopUp', time(), 32);
+        try{
+            // Check if cookie exists
+            if (document.cookie.indexOf('sfsi_socialPopUp') !== -1) {
+                return;
+            }
+
+            // If it doesn't sfsi_socialPopUp, create it
+            createCookie('sfsi_popup', new Date.getTime(), 30, '/');
+        } catch(Exception) {
+            // Do nothing
+        }
+
         setTimeout(function () {
             jQuery('.sfsi_outr_div').css({
                 'z-index': '1000000',
@@ -561,7 +610,7 @@ function sfsi_pinterest_modal(imgs) {
     );
 }
 
-// should execute at last so that every function is acceable in body.
+// should execute at last so that every function is acceptable in body.
 var sfsi_functions_loaded = new CustomEvent('sfsi_functions_loaded', {
     detail: {
         "abc": "def"
