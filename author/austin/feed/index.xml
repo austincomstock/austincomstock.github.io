@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Events Archives - Tortoise &amp; Hare RC</title>
-	<atom:link href="https://austincomstock.github.io/category/events/feed/" rel="self" type="application/rss+xml" />
-	<link>https://austincomstock.github.io/category/events/</link>
+	<title>Austin, Author at Tortoise &amp; Hare RC</title>
+	<atom:link href="https://austincomstock.github.io/author/austin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://austincomstock.github.io/author/austin/</link>
 	<description></description>
 	<lastBuildDate>Fri, 03 Mar 2023 18:49:33 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,8 +22,8 @@
 
 <image>
 	<url>https://austincomstock.github.io/wp-content/uploads/2023/03/cropped-RC-Radio-2-32x32.jpg</url>
-	<title>Events Archives - Tortoise &amp; Hare RC</title>
-	<link>https://austincomstock.github.io/category/events/</link>
+	<title>Austin, Author at Tortoise &amp; Hare RC</title>
+	<link>https://austincomstock.github.io/author/austin/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

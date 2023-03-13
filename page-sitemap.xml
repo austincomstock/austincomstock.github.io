@@ -2,9 +2,9 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://austincomstock.github.io/</loc>
-		<lastmod>2023-03-06T17:51:37+00:00</lastmod>
+		<lastmod>2023-03-13T20:55:53+00:00</lastmod>
 		<image:image>
-			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/Tortoise-Hare-RC-Logo-1.png</image:loc>
+			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/Tortoise-Hare-RC-Logo-3-min.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -12,8 +12,15 @@
 		<lastmod>2023-03-01T20:50:04+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://austincomstock.github.io/about/</loc>
+		<lastmod>2023-03-06T21:20:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/LittleMoab1-scaled.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://austincomstock.github.io/meet-the-team/</loc>
-		<lastmod>2023-03-06T18:05:56+00:00</lastmod>
+		<lastmod>2023-03-07T16:47:20+00:00</lastmod>
 		<image:image>
 			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/chaseb6.7_RC1.jpg</image:loc>
 		</image:image>
@@ -40,13 +47,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/jjb103_RC1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://austincomstock.github.io/about/</loc>
-		<lastmod>2023-03-06T21:20:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://austincomstock.github.io/wp-content/uploads/2023/03/LittleMoab1-scaled.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
